@@ -1,0 +1,291 @@
+.green-background {
+    background-color: #005a50;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: stretch;
+    min-height: 60px;
+    padding: 1vw;
+    font-family: "Nunito Sans", sans-serif;
+  
+  }
+  #fota{
+    width: 13vw;
+    min-height: 5vw;
+    margin-top: 15px;
+
+    
+  }
+  
+  body{
+    margin: 0;
+    font-family: "Nunito Sans", sans-serif;
+    
+  }
+  
+  
+  .words {
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    text-align: right;
+    padding: 1vw;    
+  
+  }
+  
+  .info2{
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    padding: 5px
+    
+  }
+  
+  .info .adres{
+    color: white;
+    align-items: flex-end;
+    padding: auto;
+    margin-top: 30px;
+    text-align: right;
+  }
+  
+  .words h2{
+    margin-left: 50px;
+    color: white;
+    
+  
+  }
+  
+  .words .word{
+    color: white;
+    text-decoration: none;
+    
+
+  
+  }
+  
+  .linki{
+    margin-left: 50px;
+    color: white;
+    text-decoration: none;
+
+  }
+  
+  .fas.fa-envelope{
+  margin-right: 4px
+  }
+  .fas.fa-phone{
+    margin-right: 4px
+    }
+
+    .fas.fa-map-marker-alt{
+      margin-right: 4px
+
+    }
+
+.fab.fa-facebook{
+  margin-right: 4px
+
+}
+
+        .hamburger {
+            display: none;  /* na początku ikona hamburgera jest niewidoczna */
+        }
+
+.info4 .info-kontakt{
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  color: black
+}
+
+.link{
+  color:black;
+  text-decoration: none;
+}
+
+.info4{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  align-items: center;
+  margin: auto;
+  width: 1000px;
+
+}
+
+.info_glowne{
+  width: 400px;
+
+}
+
+.info_glowne #name{
+  width: 393px;
+  height: 60px;
+
+}
+
+.informacje #tel{
+  margin-left: 4px;
+  width: 250px;
+  padding-right: 0px;
+}
+
+.informacje #email{
+  width: 250px;
+
+}
+
+.informacje{
+  display: flex;
+  margin-top: 4px;
+  height: 60px;
+
+
+}
+
+.info_glowne #message{
+  width: 393px;
+  margin-top: 0px;
+  margin-top: 4px;
+  height: 90px;
+
+
+}
+
+#wyslij{
+  color: white;
+  background-color: #005a50;
+  width: 100%;
+  height: 30px;
+  border: none;    
+}
+
+#wyslij:hover {
+  cursor: pointer;
+}
+
+.green-background2 {
+  background-color: #005a50;
+  display: flex;
+  justify-content: space-evenly;
+  padding: 10px;
+  font-family: "Nunito Sans", sans-serif;
+  margin-top: 130px;
+  }
+
+  .links{
+    color: white;
+    text-align: left;
+    margin-left:10%
+  }
+
+  .items{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: space-between;
+    box-sizing: border-box;
+    width: 1200px;
+
+
+  }
+
+  .fas.fa-envelope{
+    margin-right: 5px;
+  }
+
+  .hamburger {
+    display: none;  /* na początku ikona hamburgera jest niewidoczna */
+}
+
+.items #fota{
+  width: 260px;
+  min-height: 110px;
+  margin-top: 25px;
+  margin-right: 20px;
+  
+}
+
+@media screen and (max-width: 1125px) {
+  .info .phone-number{
+      display: none;
+}
+.info .mail-number{
+  display: none;
+  
+}
+.words{
+display: none;
+}
+.hamburger{
+display: block;
+color:white;
+margin-top: 15px;
+size: 50px;
+}
+.linki{
+margin-top: 10px;
+
+}
+.info .adres{
+display: none;
+
+}
+#fota{
+margin-left: 0px;
+width: 140px;
+height: 60px;
+}
+}
+
+@media screen and (max-width: 833px) {
+  .green-background2 {
+    width: 100%;
+  }
+  
+  .items {
+    display: grid;
+    grid-template-columns: 1fr;
+    width: 90%;
+  }
+  
+  .items #fota, .items .links, .items .map {
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+  }
+  
+  #fota {
+    width: 140px;
+    height: 60px;
+  }
+  
+  .links {
+    width: 90%;
+    height: 90%;
+    text-align: left;
+  }
+  
+  .map iframe {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 1052px) {
+  .info-kontakt {
+    margin-left: 4px;
+  }
+}
+
+@media screen and (max-width: 919px) {
+  .info4 {
+    width:700px;
+  }
+}
+
+@media screen and (max-width: 722px) {
+  .info4 {
+    width:700px;
+    grid-template-columns: 1fr;
+    justify-items: left;
+    margin-left: 4px;
+  }
+}

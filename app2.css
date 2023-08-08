@@ -1,0 +1,362 @@
+.green-background {
+    background-color: #005a50;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: stretch;
+    min-height: 60px;
+    padding: 1vw;
+    font-family: "Nunito Sans", sans-serif;
+  
+  }
+  #fota{
+    width: 13vw;
+    min-height: 5vw;
+    margin-top: 15px;
+
+    
+  }
+  
+  body{
+    margin: 0;
+    font-family: "Nunito Sans", sans-serif;
+  }
+  
+  
+  .words {
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    text-align: right;
+    padding: 1vw;    
+  
+  }
+  
+  .info2{
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    padding: 5px
+    
+  }
+  
+  .info .adres{
+    color: white;
+    align-items: flex-end;
+    padding: auto;
+    margin-top: 30px;
+    text-align: right;
+  }
+  
+  
+  .words h2{
+    margin-left: 50px;
+    color: white;
+    
+  
+  }
+  
+  .words .word{
+    color: white;
+    text-decoration: none;
+
+  
+  }
+  
+  .linki{
+    margin-left: 50px;
+    color: white;
+    text-decoration: none;
+
+  }
+  
+  .fas.fa-envelope{
+  margin-right: 4px;
+  color: white;
+
+  }
+    .fas.fa-phone{
+        margin-right: 4px;
+        color: white;
+        }
+
+.first-div{
+    background-image: url('tlo3.jpg');
+    background-size: cover; /* Dopasowuje tło do rozmiaru ekranu */
+    background-repeat: no-repeat; /* Wyłącza powtarzanie tła */
+    margin: 0px;
+    padding-top: 0.5%;
+    padding-bottom: 0.5%;
+}
+
+.first-h{
+    text-align: center;
+    margin-top: 5%;
+
+}
+
+.text{
+    text-align: center;
+    border-radius: 15px; /* Zaokrąglenie kątów */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); /* Dodanie cienia */
+    background: FFFFF70;
+    padding: 1%;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-top: 3%;
+    margin-bottom: 5%;
+    filter: contrast(1.2);
+
+}
+
+.second-div{
+    padding-top: 2%;
+    padding-bottom: 2%;
+    align-items: center;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    width: 1000px;
+}
+
+#fota3{
+    width: 105%;
+    height: 105%;
+    margin-left: 5%;
+    
+ }
+
+.third-tlo{
+    background-color: #abb8c3
+
+}
+ .third-div{
+    padding-top: 2%;
+    padding-bottom: 2%;
+    align-items: center;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    width: 1000px;
+}
+
+#fota4{
+    width: 100%;
+    height: 80%;
+    
+ }
+
+ .opis2{
+    margin-left: 6%;
+
+ }
+
+ .fourth-div{
+    padding-top: 2%;
+    padding-bottom: 2%;
+    align-items: center;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    width: 1000px;
+}
+
+#fota5{
+    width: 105%;
+    height: 105%;
+    margin-left: 5%;
+    
+ }
+
+ .green-background2 {
+    background-color: #005a50;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 10px;
+    font-family: "Nunito Sans", sans-serif;
+    }
+  
+.links{
+  color: white;
+  text-align: left;
+  margin-left:10%;
+  display: flex;
+  flex-direction: column; 
+  gap: 10px;
+}
+  
+    .items{
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      justify-content: space-between;
+      box-sizing: border-box;
+      width: 1200px;
+
+  
+    }
+
+    .items #fota{
+        width: 260px;
+        min-height: 130px;
+        margin-top: 25px;
+        margin-right: 20px;
+        
+      }
+
+      .fas.fa-envelope{
+        margin-right: 5px;
+      }
+    
+      .hamburger {
+        display: none;  /* na początku ikona hamburgera jest niewidoczna */
+    }
+
+      @media screen and (max-width: 1125px) {
+        .phone-number{
+            display: none;
+      }
+      .mail-number{
+        display: none;
+        
+    }
+    .words{
+      display: none;
+    }
+    .hamburger{
+      display: block;
+      color:white;
+      margin-top: 15px;
+      size: 50px;
+    }
+    .linki{
+      margin-top: 10px;
+    
+    }
+    .adres{
+      display: none;
+    
+    }
+    #fota{
+      margin-left: 0px;
+      width: 140px;
+      height: 60px;
+    }
+    }
+
+    @media screen and (max-width: 833px) {
+        .green-background2 {
+          width: 100%;
+        }
+        
+        .items {
+          display: grid;
+          grid-template-columns: 1fr;
+          width: 90%;
+        }
+        
+        .items #fota, .items .links, .items .map {
+          width: 100%;
+          height: 100%;
+          margin: 0px;
+        }
+        
+        #fota {
+          width: 140px;
+          height: 60px;
+        }
+        
+        .links {
+          width: 90%;
+          height: 90%;
+          text-align: left;
+        }
+        
+        .map iframe {
+          width: 100%;
+        }
+      }
+
+      @media screen and (max-width: 994px) {
+        .text {
+          margin: 4px;
+        }
+      }
+
+      @media screen and (max-width: 1116px) {
+        .second-div, .third-div, .fourth-div {
+          margin: 4px;
+        }
+        #fota3{
+          height: 320px;
+          width: 450px;
+        }
+        #fota4{
+          height: 320px;
+          width: 450px;
+
+        }
+        #fota5{
+          height: 320px;
+          width: 450px;
+        }
+        .opis2{
+          font-size: 15px;
+          margin-left: 0px;
+        }
+      }
+
+      @media screen and (max-width: 995px) {
+        
+        .opisek{
+          font-size: 15px;
+        }
+        #fota3{
+          height: 240px;
+          width: 350px;
+        }
+        #fota4{
+          height: 240px;
+          width: 350px;
+
+        }
+        #fota5{
+          height: 240px;
+          width: 350px;
+        }
+        .third-div{
+          display: flex;
+        }
+        .opis2{
+          margin-left: 40px;
+          margin-right: 130px;
+
+        }
+      }
+
+      @media screen and (max-width: 899px) {
+        .second-div, .fourth-div{
+          grid-template-columns: 1fr;
+          justify-items: center;
+          width: 100%;
+          max-width: 1000px;  /* ustaw tutaj swoją maksymalną szerokość */
+          margin-bottom: 0px;
+      }
+      .third-div{
+        flex-direction: column;
+        justify-items: center;
+        width: 100%;
+        max-width: 1000px;  /* ustaw tutaj swoją maksymalną szerokość */
+        margin-bottom: 0px;
+      }
+      .opisek {
+        margin-bottom: 0px;
+      }
+      .opis2{
+        margin:4px;
+        order: -1
+      }
+      #fota3, #fota4, #fota5{
+        width: 100%;
+        height: 50%;
+        margin-left: 4px;
+      }
+      }
