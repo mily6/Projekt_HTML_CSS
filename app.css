@@ -187,6 +187,10 @@ margin-right: 4px
     margin:auto;
     display: flex;
     flex-direction: column; 
+    margin-top: 30px;
+    gap: 10px;
+    margin-left: 10%;
+
 
   }
 
@@ -194,6 +198,7 @@ margin-right: 4px
     color: white;
     text-decoration: none;
     gap: 10px;
+    
     
   
   }
@@ -205,16 +210,6 @@ margin-right: 4px
     width: 1200px;
   }
 
-  .links, .links > div {
-    display: flex;
-    flex-direction: column;
-}
-
-.links, .links * {
-  margin: auto;
-  text-align: left;
-
-}
 
 .fas.fa-map-marker-alt{
   margin-right: 5px;
