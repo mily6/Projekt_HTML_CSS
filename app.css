@@ -190,6 +190,14 @@ margin-right: 4px
 
   }
 
+  .links2{
+    color: white;
+    text-decoration: none;
+    gap: 10px;
+    
+  
+  }
+
   .items{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -208,7 +216,15 @@ margin-right: 4px
 
 }
 
+.fas.fa-map-marker-alt{
+  margin-right: 5px;
 
+}
+
+.fab.fa-facebook{
+  margin-right: 5px;
+
+}
 
   .fas.fa-envelope{
     margin-right: 5px;
@@ -329,7 +345,7 @@ margin-right: 4px
 }
 }
 
-@media screen and (max-width: 833px) {
+@media screen and (max-width: 993px) {
   .green-background2 {
     width: 100%;
   }
@@ -352,6 +368,7 @@ margin-right: 4px
     width: 90%;
     height: 90%;
     text-align: left;
+    padding: 10px;
   }
   
   .map iframe {
