@@ -258,7 +258,7 @@
     .dropdown-content {
       display: none;
       position: absolute;   /* zmienione z absolute na fixed */
-      top: 97px;
+      top: 90px;
       left: 0;
       z-index: 9999;
       width: 100%;

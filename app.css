@@ -18,6 +18,7 @@
 body{
   margin: 0;
   font-family: "Nunito Sans", sans-serif;
+  width: 100%;
 }
 
 
@@ -178,7 +179,7 @@ margin-right: 4px
   background-color: #005a50;
   display: flex;
   justify-content: space-evenly;
-  padding: 10px;
+  padding: 1vw;
   font-family: "Nunito Sans", sans-serif;
   }
 
@@ -207,7 +208,7 @@ margin-right: 4px
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     justify-content: space-between;
-    width: 1200px;
+    width: 1000px;
   }
 
 
@@ -270,7 +271,7 @@ margin-right: 4px
 .dropdown-content {
   display: none;
   position: absolute;   /* zmienione z absolute na fixed */
-  top: 97px;
+  top: 90px;
   left: 0;
   width: 100%;
   z-index: 9999;
@@ -376,6 +377,10 @@ margin-right: 4px
 
 @media screen and (max-width: 993px) {
   .green-background2 {
+    width: 100%;
+  }
+
+  .strona{
     width: 100%;
   }
   
